@@ -19,6 +19,10 @@ public class Company {
     private String phone;
     private LocalDateTime createdon;
 
+    public Company() {
+
+    }
+
     public int getId() {
         return id;
     }
