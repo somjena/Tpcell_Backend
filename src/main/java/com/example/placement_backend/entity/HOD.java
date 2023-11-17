@@ -21,7 +21,7 @@ private String address;
 private LocalDateTime createdon;
 
     public HOD() {
-        
+
     }
 
 
