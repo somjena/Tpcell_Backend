@@ -2,6 +2,9 @@ package com.example.placement_backend.services;
 
 import com.example.placement_backend.Repositories.HodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
 
 public class HodService {
     @Autowired
