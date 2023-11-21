@@ -1,5 +1,7 @@
 package com.example.placement_backend.controllers;
 
+import com.example.placement_backend.dtos.DashboardDTO;
+import com.example.placement_backend.dtos.Response;
 import com.example.placement_backend.services.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

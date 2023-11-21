@@ -1,7 +1,10 @@
 package com.example.placement_backend.controllers;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class CompanyController {
-    @Autowired UsersService uservice;
+    @Autowired
+    UsersService uservice;
     @Autowired CompanyService cservice;
     @Autowired JobApplyService jservice;
     @Autowired StudentService sservice;
