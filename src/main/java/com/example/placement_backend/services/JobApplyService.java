@@ -1,11 +1,13 @@
 package com.example.placement_backend.services;
 
+import com.example.placement_backend.Repositories.JobApplicationRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class JobApplyService {
 
-    @Autowired JobApplicationRepository repo;
+    @Autowired
+    JobApplicationRepository repo;
     @Autowired CompanyService cservice;
     @Autowired StudentService sservice;
 
